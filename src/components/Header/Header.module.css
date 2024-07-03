@@ -1,6 +1,8 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 20px;
   background-color: #101010;
   padding: 20px;
   border-bottom: 1px solid #fff;
@@ -52,11 +54,43 @@
   }
 }
 
+@media (max-width: 650px) {
+  .header {
+    padding: 30px;
+  }
+  .description h1 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .menuItem {
+    font-size: 16px;
+  }
+  .burgerMenu {
+    display: block;
+    margin-left: auto;
+  }
+  .burgerMenuIcon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 480px) {
   .header {
-    padding: 5px;
+    padding: 40px;
   }
-  .headerName {
+  .description h1 {
     font-size: 18px;
   }
   .description p {
