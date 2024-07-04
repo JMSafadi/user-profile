@@ -1,13 +1,13 @@
 :root {
-  --background-color: #050505;
-  --section-background-color: ;
+  --background-color: #101011;
+  --section-background-color: #212121;
   --text-color: #EFEFEF;
 }
 
 [data-theme='light'] {
   --background-color: #ffffff;
-  --section-background-color: #f7f7f7;
-  --text-color: #3d3d3d;
+  --section-background-color: #F2F2F2;
+  --text-color: #373737;
 }
 
 body {
