@@ -9,21 +9,21 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #101010;
-  border: 1px solid #fff;
+  background-color: var(--section-background-color);
+  border: 1px solid var(--text-color);
   border-radius: 5px;
 }
 
 .title {
   font-size: 36px;
-  color: #fff;
+  color: var(--text-color);
   margin-bottom: 20px;
   font-weight: 700;
 }
 
 .description {
   font-size: 18px;
-  color: #d7d7d7;
+  color: var(--text-color);
   line-height: 1.5;
   word-wrap: break-word;
 }

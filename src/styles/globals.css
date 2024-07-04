@@ -1,9 +1,21 @@
+:root {
+  --background-color: #050505;
+  --section-background-color: ;
+  --text-color: #EFEFEF;
+}
+
+[data-theme='light'] {
+  --background-color: #ffffff;
+  --section-background-color: #f7f7f7;
+  --text-color: #3d3d3d;
+}
+
 body {
   font-family: 'Reboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #050505 ;
-  color: #EFEFEF;
+  background-color: var(--background-color) ;
+  color: var(--text-color);
 }
 
 * {
