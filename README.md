@@ -39,6 +39,12 @@ npm run dev
 yarn dev
 ```
 
+## Ejecucion.
+Para correr testing de componentes con Jest.
+```
+npm test
+```
+
 ## Estructura del proyecto
 ```
 user-profile/

@@ -8,7 +8,7 @@ export default function Header({ imageUrl }) {
   return (
     <>
       <header className={styles.header}>
-        <ProfileImg imageUrl={ imageUrl } />
+        <ProfileImg imageUrl={ imageUrl }/>
         <div className={styles.description}>
           <h1>María López</h1>
           <p><MdOutlineWorkOutline/> Fotógrafa Profesional</p>
