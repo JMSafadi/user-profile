@@ -39,7 +39,7 @@ npm run dev
 yarn dev
 ```
 
-## Ejecucion.
+## Pruebas.
 Para correr testing de componentes con Jest.
 ```
 npm test
@@ -50,7 +50,7 @@ npm test
 user-profile/
 ├── public/                 # Archivos públicos como imágenes y favicon.
 ├── src/                    # Código fuente del proyecto.
-│   ├── components/         # Componentes reutilizables, cada uno con su archivo de estilos.
+│   ├── components/         # Componentes reutilizables, cada uno con su archivo de estilos y test.
 │   ├── context/            # Context para alternar Modo oscuro.
 │   ├── pages/              # Páginas de Next.js.
 │   ├── styles/             # Archivos de estilos globales.
